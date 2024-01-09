@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@300;400;700&family=Love+Ya+Like+A+Sister&family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(231, 231, 231);
+    font-family: 'Love Ya Like A Sister', cursive;
+}
+h1, h2{
+    text-align: center;
+    font-size: 80px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-shadow: 10px 3px 20px #a09a9a85;
+    font-weight: bold;
+    color: #000000;
+}
+h2{
+    font-size: 30px;
+    margin-bottom: 0;
+    letter-spacing: 3px;
+}
+
+#ColorDiv{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 8px #aea8a8;
+}
+
+.container{
+    width: 300px;
+    height: 150px;
+    border: 1px black;
+    border-radius: 10px;
+    box-shadow: inset 0 0 15px #404040;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    transition: transform .3s;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    text-shadow: 5px 5px 20px rgb(24, 24, 24);
+    color: white;
+}
+
+.container:hover{
+    transform: scale(1.02);
+}
